@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <FaultRules/>
+    <PreFlow/>
+    <Flows/>
+    <PostFlow/>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+    <HTTPProxyConnection>
+        <BasePath>/my-api/v1</BasePath>
+        <VirtualHost>secure</VirtualHost>
+        <VirtualHost>default</VirtualHost>
+    </HTTPProxyConnection>
+</ProxyEndpoint>

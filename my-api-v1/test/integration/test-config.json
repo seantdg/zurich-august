@@ -1,0 +1,6 @@
+{
+	"currencyApi": {
+		"domain": "sdavissrg-trial-test.apigee.net",
+		"basepath": "/catalogue/v1"
+	}
+}
